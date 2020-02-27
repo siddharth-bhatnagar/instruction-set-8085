@@ -15,3 +15,10 @@ MVI H,60
 MOV A,H
 ADI 02
 HLT
+
+// Add with immediate data & carry
+
+MVI H,60
+MOV A,H
+ACI 02
+HLT
