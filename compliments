@@ -1,0 +1,12 @@
+// 1's compliment
+
+LDA 2000H
+CMA
+HLT
+
+// 2's compliment
+
+LDA 2000H
+CMA
+ADI 01H
+HLT
