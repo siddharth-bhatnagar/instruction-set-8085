@@ -1,0 +1,17 @@
+// This code can be run in 8085 simulator
+// Addition of two 8-bit numbers
+
+// Add with registers
+
+MVI H,60
+MOV A,H
+MVI H,20
+ADD H
+HLT
+
+// Add with immediate data
+
+MVI H,60
+MOV A,H
+ADI 02
+HLT
