@@ -1,0 +1,21 @@
+// Subtract with registers
+
+MVI H,60
+MOV A,H
+MVI H,20
+SUB H
+HLT
+
+// Subtract with immediate data
+
+MVI H,60
+MOV A,H
+SUI 02
+HLT
+
+// Subtract with immediate data & borrow
+
+MVI H,60
+MOV A,H
+SBI 02
+HLT
